@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: green;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+}
+.a{
+    background-color: white;
+    width:300px;
+    display: inline-block;
+    border: 5px solid red;
+    text-align: center;
+    margin-left: 100px;
+    padding: 20px;
+    color: #8b4513;
+    border-radius: 10px ;
+    font-style: italic;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px gray;
+}
+.container{
+    border: 5px solid red;
+    width: 100%;
+    height: 590px;
+}
+.box{
+    text-align: center;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    border: 5px solid red;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 10px 10px 15px black;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    position: absolute;
+}
+.item1{
+    height: 150px;
+    top: 170px;
+    left: 20px;
+    line-height: 50px;
+    text-shadow: 5px 5px 5px black;
+    /* box-shadow: 10px 10px 15px ; */
+}
+
+.item2{
+    height: 150px;
+    top: 180px;
+    right:  40px;   
+}
+.item3{
+    height: 150px;
+    top: 86%;
+    left: 20px;  
+    font-size: 12px; 
+    text-align: left;
+    padding: 10px 0px ;
+    text-shadow: 2px 2px 5px black;
+}
+
+.container2{
+    width: 700px;
+    background-color: gray;
+    border: 5px solid red;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/* 
+.fruits{
+    display: inline-block;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    box-shadow: 1px 1px 2px black;
+    font-style: italic;
+    padding: 10px;
+    margin: 2px;
+} */
+.vegitables{
+    font-style: italic;
+    display: inline-block;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    box-shadow: 1px 1px 2px black;
+    padding: 20px;
+    margin: 2px;
+}
+.st{
+    display: inline-block;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    box-shadow: 1px 1px 2px black;
+    font-style: italic;
+    padding: 10px;
+    margin: 2px;
+}
+.other{
+    margin-top: 20px;
+    background-color: yellow;
+    border: 3px solid red;
+    line-height: 50px;
+    padding: 10px;
+    font-style: italic;
+    z-index: +1;
+
+}
+.popup{
+    display: flex;
+    position: fixed;
+    top: 80%;
+    left: 34%;
+    background-color: yellow;
+    width: 440px;
+    border: 10px solid red;
+    border-radius: 20px;
+    padding: 12px;
+    color: red;
+    justify-content: space-evenly;
+   font-style: italic;
+}
+#offer{
+    padding-right: 10px;
+    text-align: center;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+#discount{
+    padding-right: 10px;
+    text-align: center;
+    width: 120px;
+    font-weight: bold;
+}
+
+.box12{
+    display: inline-block;
+    position: relative;
+    top: 70%;
+    left: 82%;
+    width: 200px;
+    border: 5px solid red;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    background-color: white;
+     box-shadow: 5px 5px rgb(110, 10, 110);
+    text-shadow: 1px 2px 2px rgb(110, 10, 110);
+    text-align: center; 
+}
